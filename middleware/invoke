@@ -12,6 +12,8 @@ userDirectory=${HOME}/MOLSPEC
 mkdir -p ${userDirectory}/git
 cp -f ${toolDirectory}/main.ipynb ${userDirectory}
 
+mkdir -p ${userDirectory}/local
+
 /usr/bin/invoke_app "$@" -t molspec \
                          -C "start_jupyter -A -t ${userDirectory}/main.ipynb" \
                                                   -u anaconda-6
