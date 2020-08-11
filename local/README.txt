@@ -1,1 +1,0 @@
-This directory will not be modified by launching the MolSpec app, and can be used to store user files. Note, in contrast, that all content in the git/ directory is overwritten each time the app launches -- users cannot store data in the git/ directory!
